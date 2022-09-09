@@ -1,21 +1,15 @@
 #include <stdio.h>
-
 /**
- *  * main - Entry point
+ * main - Entry point
  *
- *  *
- *
- *  * Return: Always 0 (Success/correct)
- *
- **/
-
+ * Return: Always 0 (Success/correct)
+ */
 int main(void)
 {
 	int i, j, k;
 
 	for (i = 48; i < 58; i++)
 	{
-
 		for (j = 49; j < 58; j++)
 		{
 			for (k = 50; k < 58; k++)
@@ -24,7 +18,7 @@ int main(void)
 				{
 					putchar(i);
 					putchar(j);
-					putchar(k)
+					putchar(k);
 					if (i != 55 || j != 56)
 					{
 						putchar(',');
